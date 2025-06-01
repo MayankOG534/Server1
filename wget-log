@@ -1,0 +1,6 @@
+--2025-06-01 09:16:44--  https://www.youtube.com/redirect?event=video_description
+Resolving www.youtube.com (www.youtube.com)... 142.251.42.110, 172.217.174.238, 216.58.203.14, ...
+Connecting to www.youtube.com (www.youtube.com)|142.251.42.110|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2025-06-01 09:16:44 ERROR 404: Not Found.
+
