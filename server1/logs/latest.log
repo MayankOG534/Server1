@@ -1,173 +1,124 @@
-[09:19:00] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1030-azure (amd64)
-[09:19:00] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.7-18-main@a939945 (2025-07-11T15:53:57Z) for Minecraft 1.21.7
-[09:19:00] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[09:19:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
-[09:19:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
+[06:04:06] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1030-azure (amd64)
+[06:04:06] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.7-18-main@a939945 (2025-07-11T15:53:57Z) for Minecraft 1.21.7
+[06:04:07] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[06:04:07] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
+[06:04:07] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
  - FarmProtection (1.0), Geyser-Spigot (2.7.1-SNAPSHOT), ViaBackwards (5.4.1), ViaVersion (5.4.1)
-[09:19:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[09:19:08] [ServerMain/INFO]: Loaded 1407 recipes
-[09:19:08] [ServerMain/INFO]: Loaded 1520 advancements
-[09:19:08] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[09:19:08] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 385.0ms
-[09:19:08] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[09:19:08] [Server thread/INFO]: Loading properties
-[09:19:08] [Server thread/INFO]: This server is running Paper version 1.21.7-18-main@a939945 (2025-07-11T15:53:57Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
-[09:19:08] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[09:19:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:19:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:19:09] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[09:19:09] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[09:19:09] [Server thread/INFO]: Default game type: SURVIVAL
-[09:19:09] [Server thread/INFO]: Generating keypair
-[09:19:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:19:10] [Server thread/INFO]: Using epoll channel type
-[09:19:10] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[09:19:10] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[09:19:10] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.1
-[09:19:10] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.1 is now loaded. Registering protocol transformers and injecting...
-[09:19:11] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[09:19:11] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[09:19:11] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[09:19:11] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[09:19:12] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.1
-[09:19:12] [Server thread/INFO]: [FarmProtection] Loading server plugin FarmProtection v1.0
-[09:19:12] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
-[09:19:12] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[09:19:12] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[09:19:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[09:19:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09:19:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[09:19:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09:19:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[09:19:12] [Server thread/INFO]: Preparing level "world"
-[09:19:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:19:13] [Server thread/INFO]: Preparing spawn area: 0%
-[09:19:14] [Server thread/INFO]: Preparing spawn area: 28%
-[09:19:14] [Server thread/INFO]: Preparing spawn area: 28%
-[09:19:14] [Server thread/INFO]: Time elapsed: 1014 ms
-[09:19:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[09:19:14] [Server thread/INFO]: Preparing spawn area: 0%
-[09:19:15] [Server thread/INFO]: Time elapsed: 315 ms
-[09:19:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[09:19:15] [Server thread/INFO]: Preparing spawn area: 0%
-[09:19:15] [Server thread/INFO]: Time elapsed: 136 ms
-[09:19:15] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.1
-[09:19:15] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7 (772)
-[09:19:15] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.1
-[09:19:15] [Server thread/INFO]: [FarmProtection] Enabling FarmProtection v1.0
-[09:19:15] [Server thread/INFO]: [FarmProtection] Enabled FarmProtection v1.0
-[09:19:15] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
-[09:19:15] [Server thread/INFO]: [spark] Starting background profiler...
-[09:19:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[09:19:16] [Server thread/INFO]: [Geyser-Spigot] 
-[09:19:16] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b838 (git-master-c80a8a7)
-[09:19:16] [Server thread/INFO]: [Geyser-Spigot] 
-[09:19:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[09:19:21] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[09:19:21] [Server thread/INFO]: [Geyser-Spigot] Done (4.99s)! Run /geyser help for help!
-[09:19:21] [ForkJoinPool.commonPool-worker-1/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.100. Download it here: https://geysermc.org/download
-[09:19:21] [Server thread/INFO]: Done preparing level "world" (8.426s)
-[09:19:21] [Server thread/INFO]: Running delayed init tasks
-[09:19:21] [Server thread/INFO]: Done (21.488s)! For help, type "help"
-[09:19:21] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[09:19:21] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.4.2, you're on: 5.4.1
-[09:20:28] [User Authenticator #0/INFO]: UUID of player celestial is 83ec689e-ae6b-3ae2-a330-6d4e62601c63
-[09:20:28] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [Geyser-Spigot]
-[09:20:28] [Server thread/INFO]: celestial joined the game
-[09:20:29] [Server thread/INFO]: celestial[/[0:0:0:0:0:0:0:1]:38148] logged in with entity id 52 at ([world]-1099.1745557768925, -25.75081292125532, -326.2722989089805)
-[09:20:33] [User Authenticator #0/INFO]: UUID of player lazyDD is 5b2ffeb2-9410-39d3-b9ba-15654c7f8aaa
-[09:20:34] [Server thread/INFO]: lazyDD joined the game
-[09:20:34] [Server thread/INFO]: lazyDD[/[0:0:0:0:0:0:0:1]:38150] logged in with entity id 230 at ([world]-1069.385122596357, -42.0, -218.33712509400493)
-[09:21:12] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 6feb1938-545c-4a1b-80b6-ef09cb906982, mapped to Turtle['Turtle'/910, uuid='6feb1938-545c-4a1b-80b6-ef09cb906982', l='ServerLevel[world]', x=-778.97, y=62.17, z=-805.08, cpos=[-49, -51], tl=0, v=true], can't add Turtle['Turtle'/915, uuid='6feb1938-545c-4a1b-80b6-ef09cb906982', l='ServerLevel[world]', x=-803.62, y=61.00, z=-834.53, cpos=[-51, -53], tl=0, v=false]
-[09:21:13] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 49866206-c7ee-4e20-9d09-65a0f9bb23f6, mapped to Turtle['Turtle'/932, uuid='49866206-c7ee-4e20-9d09-65a0f9bb23f6', l='ServerLevel[world]', x=-712.10, y=62.00, z=-780.01, cpos=[-45, -49], tl=0, v=true], can't add Turtle['Turtle'/940, uuid='49866206-c7ee-4e20-9d09-65a0f9bb23f6', l='ServerLevel[world]', x=-714.38, y=54.33, z=-792.81, cpos=[-45, -50], tl=0, v=false]
-[09:21:13] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 7636242e-d36a-4459-b83e-69203d90ff25, mapped to Turtle['Turtle'/933, uuid='7636242e-d36a-4459-b83e-69203d90ff25', l='ServerLevel[world]', x=-713.81, y=61.47, z=-774.86, cpos=[-45, -49], tl=0, v=true], can't add Turtle['Turtle'/941, uuid='7636242e-d36a-4459-b83e-69203d90ff25', l='ServerLevel[world]', x=-719.09, y=56.96, z=-797.23, cpos=[-45, -50], tl=0, v=false]
-[09:21:15] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 2f9a3e5a-5489-4dec-9309-f8d5074afa38, mapped to Turtle['Turtle'/942, uuid='2f9a3e5a-5489-4dec-9309-f8d5074afa38', l='ServerLevel[world]', x=-719.75, y=59.90, z=-787.37, cpos=[-45, -50], tl=0, v=true], can't add Turtle['Turtle'/996, uuid='2f9a3e5a-5489-4dec-9309-f8d5074afa38', l='ServerLevel[world]', x=-704.29, y=58.00, z=-824.37, cpos=[-45, -52], tl=0, v=false]
-[09:21:15] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: c3ddba73-a6e3-4f90-9ee2-6a4302d3e655, mapped to Turtle['Turtle'/927, uuid='c3ddba73-a6e3-4f90-9ee2-6a4302d3e655', l='ServerLevel[world]', x=-733.90, y=60.19, z=-789.59, cpos=[-46, -50], tl=0, v=true], can't add Turtle['Turtle'/1000, uuid='c3ddba73-a6e3-4f90-9ee2-6a4302d3e655', l='ServerLevel[world]', x=-718.91, y=60.09, z=-835.14, cpos=[-45, -53], tl=0, v=false]
-[09:27:53] [Server thread/INFO]: celestial has made the advancement [Hot Stuff]
-[09:28:42] [Server thread/INFO]: celestial tried to swim in lava
-[09:32:50] [Server thread/INFO]: celestial has made the advancement [Getting an Upgrade]
-[09:32:59] [Server thread/INFO]: lazyDD tried to swim in lava
-[09:33:06] [Server thread/INFO]: lazyDD has made the advancement [Getting an Upgrade]
-[09:39:49] [Server thread/INFO]: Villager Villager['Fisherman'/124, uuid='225fa0ba-f55f-4d0f-b0cb-0eb853567687', l='ServerLevel[world]', x=-1053.50, y=90.00, z=-247.50, cpos=[-66, -16], tl=23150, v=true] died, message: 'Fisherman was slain by Zombie'
-[09:39:55] [Server thread/INFO]: lazyDD has made the advancement [The Parrots and the Bats]
-[09:59:50] [Server thread/INFO]: lazyDD issued server command: /give lazyDD minecraft:dark_oak_log
-[09:59:50] [Server thread/INFO]: [lazyDD: Gave 1 [Dark Oak Log] to lazyDD]
-[10:00:13] [Server thread/INFO]: [celestial: Set own game mode to Creative Mode]
-[10:00:46] [Server thread/INFO]: [celestial: Set own game mode to Survival Mode]
-[10:22:53] [Server thread/INFO]: lazyDD was slain by celestial
-[10:59:04] [Server thread/INFO]: celestial was slain by lazyDD
-[11:00:21] [Server thread/INFO]: celestial was slain by lazyDD
-[11:07:51] [Server thread/INFO]: Villager Villager['Villager'/258, uuid='b3b60f3c-5504-42b6-95dc-7ef3a35c3553', l='ServerLevel[world]', x=-980.50, y=118.56, z=-154.50, cpos=[-62, -10], tl=128682, v=true] was struck by lightning LightningBolt['Lightning Bolt'/13676, uuid='a4732f78-c285-42ec-9751-6e63e0de69ea', l='ServerLevel[world]', x=-982.50, y=117.00, z=-157.50, cpos=[-62, -10], tl=1, v=true].
-[11:13:18] [Async Chat Thread - #1/INFO]: [Not Secure] <lazyDD> ek min
-[11:13:25] [Async Chat Thread - #1/INFO]: [Not Secure] <celestial> ok
-[11:13:33] [Server thread/INFO]: celestial fell from a high place
-[11:20:52] [Server thread/INFO]: celestial was slain by Zombie
-[11:27:53] [Server thread/INFO]: celestial fell from a high place
-[11:34:11] [Server thread/INFO]: celestial was slain by lazyDD
-[11:35:33] [Server thread/INFO]: lazyDD was slain by celestial
-[11:36:05] [Server thread/INFO]: lazyDD was doomed to fall by celestial
-[11:36:25] [Server thread/INFO]: celestial was slain by lazyDD
-[11:37:39] [Server thread/INFO]: lazyDD was slain by celestial
-[11:38:25] [Server thread/INFO]: lazyDD was slain by celestial
-[11:38:57] [Server thread/INFO]: celestial was slain by lazyDD
-[11:39:02] [Server thread/INFO]: lazyDD tried to swim in lava
-[11:39:14] [Server thread/INFO]: lazyDD was slain by celestial
-[11:39:25] [Server thread/INFO]: celestial was slain by lazyDD
-[11:39:40] [Server thread/INFO]: lazyDD was slain by celestial
-[11:39:51] [Server thread/INFO]: celestial was slain by lazyDD
-[11:41:39] [Server thread/INFO]: lazyDD was slain by Zombie
-[11:41:53] [Server thread/INFO]: lazyDD issued server command: /kill celestial
-[11:41:53] [Server thread/INFO]: celestial was killed
-[11:41:53] [Server thread/INFO]: [lazyDD: Killed celestial]
-[11:42:05] [Server thread/INFO]: lazyDD was slain by celestial
-[11:42:15] [Server thread/INFO]: celestial was slain by lazyDD
-[11:42:22] [Server thread/INFO]: lazyDD was slain by celestial
-[11:43:27] [Server thread/INFO]: lazyDD was slain by celestial
-[11:43:57] [Server thread/INFO]: Villager Villager['Fisherman'/122, uuid='97cc4169-6ac6-4cc9-bebd-3a50c439beb7', l='ServerLevel[world]', x=-1055.50, y=90.56, z=-249.50, cpos=[-66, -16], tl=172110, v=true] died, message: 'Fisherman was slain by Zombie'
-[11:44:05] [Server thread/INFO]: lazyDD was slain by celestial
-[11:44:41] [Server thread/INFO]: celestial was shot by lazyDD
-[11:44:50] [Server thread/INFO]: lazyDD was slain by celestial
-[11:44:54] [Server thread/INFO]: celestial lost connection: Disconnected
-[11:44:54] [Server thread/INFO]: celestial left the game
-[11:45:05] [Server thread/INFO]: lazyDD lost connection: Disconnected
-[11:45:05] [Server thread/INFO]: lazyDD left the game
-[11:45:27] [Server thread/INFO]: Stopping the server
-[11:45:27] [Server thread/INFO]: Stopping server
-[11:45:27] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
-[11:45:27] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[11:45:28] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[11:45:28] [Server thread/INFO]: [FarmProtection] Disabling FarmProtection v1.0
-[11:45:28] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.1
-[11:45:28] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.1
-[11:45:28] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[11:45:28] [Server thread/INFO]: Saving players
-[11:45:28] [Server thread/INFO]: Saving worlds
-[11:45:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Saved 21 block chunks, 164 entity chunks, 2 poi chunks in world 'world' in 0.21s
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[11:45:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 25 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[11:45:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[11:45:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[11:45:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:45:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:45:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:45:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[11:45:28] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[11:45:28] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[11:45:28] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[11:45:28] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[06:04:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:04:14] [ServerMain/INFO]: Loaded 1407 recipes
+[06:04:14] [ServerMain/INFO]: Loaded 1520 advancements
+[06:04:14] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[06:04:15] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 470.2ms
+[06:04:15] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[06:04:15] [Server thread/INFO]: Loading properties
+[06:04:15] [Server thread/INFO]: This server is running Paper version 1.21.7-18-main@a939945 (2025-07-11T15:53:57Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
+[06:04:15] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[06:04:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:04:15] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:04:16] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[06:04:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[06:04:16] [Server thread/INFO]: Default game type: SURVIVAL
+[06:04:16] [Server thread/INFO]: Generating keypair
+[06:04:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:04:17] [Server thread/INFO]: Using epoll channel type
+[06:04:17] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[06:04:17] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[06:04:17] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.1
+[06:04:17] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.1 is now loaded. Registering protocol transformers and injecting...
+[06:04:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[06:04:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[06:04:19] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[06:04:19] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[06:04:19] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.1
+[06:04:19] [Server thread/INFO]: [FarmProtection] Loading server plugin FarmProtection v1.0
+[06:04:19] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[06:04:20] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[06:04:20] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[06:04:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:04:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:04:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:04:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:04:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:04:20] [Server thread/INFO]: Preparing level "world"
+[06:04:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:04:21] [Server thread/INFO]: Preparing spawn area: 0%
+[06:04:21] [Server thread/INFO]: Preparing spawn area: 12%
+[06:04:22] [Server thread/INFO]: Preparing spawn area: 12%
+[06:04:22] [Server thread/INFO]: Time elapsed: 1102 ms
+[06:04:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[06:04:22] [Server thread/INFO]: Preparing spawn area: 0%
+[06:04:22] [Server thread/INFO]: Time elapsed: 231 ms
+[06:04:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[06:04:22] [Server thread/INFO]: Preparing spawn area: 0%
+[06:04:22] [Server thread/INFO]: Time elapsed: 103 ms
+[06:04:22] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.1
+[06:04:22] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7 (772)
+[06:04:22] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.1
+[06:04:22] [Server thread/INFO]: [FarmProtection] Enabling FarmProtection v1.0
+[06:04:22] [Server thread/INFO]: [FarmProtection] Enabled FarmProtection v1.0
+[06:04:22] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[06:04:23] [Server thread/INFO]: [spark] Starting background profiler...
+[06:04:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[06:04:23] [Server thread/INFO]: [Geyser-Spigot] 
+[06:04:23] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b838 (git-master-c80a8a7)
+[06:04:23] [Server thread/INFO]: [Geyser-Spigot] 
+[06:04:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[06:04:28] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[06:04:28] [Server thread/INFO]: [Geyser-Spigot] Done (4.863s)! Run /geyser help for help!
+[06:04:28] [ForkJoinPool.commonPool-worker-3/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.100. Download it here: https://geysermc.org/download
+[06:04:28] [Server thread/INFO]: Done preparing level "world" (8.447s)
+[06:04:28] [Server thread/INFO]: Running delayed init tasks
+[06:04:28] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[06:04:28] [Server thread/INFO]: Done (22.848s)! For help, type "help"
+[06:04:29] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.4.2, you're on: 5.4.1
+[06:04:49] [User Authenticator #0/INFO]: UUID of player Mayank0G is 76944021-bdb0-33c8-af35-80fdcaa41cc1
+[06:04:49] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [Geyser-Spigot]
+[06:04:51] [Server thread/INFO]: Mayank0G joined the game
+[06:04:51] [Server thread/INFO]: Mayank0G[/[0:0:0:0:0:0:0:1]:37768] logged in with entity id 42 at ([world]-2301.8160617808876, 65.0, -1752.8273124618024)
+[06:05:44] [Server thread/INFO]: Mayank0G lost connection: Disconnected
+[06:05:44] [Server thread/INFO]: Mayank0G left the game
+[06:07:02] [User Authenticator #1/INFO]: UUID of player Mayank0G is 76944021-bdb0-33c8-af35-80fdcaa41cc1
+[06:07:03] [Server thread/INFO]: Mayank0G joined the game
+[06:07:03] [Server thread/INFO]: Mayank0G[/[0:0:0:0:0:0:0:1]:37936] logged in with entity id 777 at ([world]-2301.8160617808876, 65.0, -1752.8273124618024)
+[06:07:28] [Server thread/INFO]: [Mayank0G: Set own game mode to Survival Mode]
+[06:07:30] [Server thread/INFO]: Mayank0G lost connection: Disconnected
+[06:07:30] [Server thread/INFO]: Mayank0G left the game
+[06:10:50] [Server thread/INFO]: Stopping server
+[06:10:50] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[06:10:50] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[06:10:50] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[06:10:50] [Server thread/INFO]: [FarmProtection] Disabling FarmProtection v1.0
+[06:10:50] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.1
+[06:10:50] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.1
+[06:10:50] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[06:10:50] [Server thread/INFO]: Saving players
+[06:10:50] [Server thread/INFO]: Saving worlds
+[06:10:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 12 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[06:10:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[06:10:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[06:10:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[06:10:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:10:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:10:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:10:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:10:50] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[06:10:50] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[06:10:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[06:10:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
