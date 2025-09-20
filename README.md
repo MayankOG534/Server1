@@ -6,6 +6,9 @@ java -Xmx12G -Xms12G -jar server.jar nogui
 ## Ngrok 
 ./ngrok tcp 25565
 
+## Playit
+./playit-linux-amd64
+
 ## Create PaperMC Server
 sudo apt update
 
