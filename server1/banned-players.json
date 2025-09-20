@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "uuid": "cb60bf92-9cfe-30c9-98dd-6260b9323617",
+    "name": "011",
+    "created": "2025-09-20 13:20:16 +0000",
+    "source": "Mayank0G",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "90c0c1fe-a180-3a77-9073-3c6b21f0ccfb",
+    "name": "null",
+    "created": "2025-09-20 10:17:31 +0000",
+    "source": "lazyDD",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
