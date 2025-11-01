@@ -1,6 +1,8 @@
 # Server1
 
 ## Start Server
+./run-server.sh
+
 java -Xmx12G -Xms12G -jar server.jar nogui
 
 ## Ngrok 
